@@ -584,9 +584,9 @@ a {
     margin: 0;
     padding: 0;
     position: absolute;
-    background-image: url('img css/vietnam.png'), linear-gradient(rgb(255, 83, 83), rgb(255, 255, 71));
+    background-image: url('img css/vietnam.png'), linear-gradient(rgb(255, 115, 115), rgb(255, 255, 119));
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120%;
-    opacity: 0.3;
+    opacity: 0.2;
 }
