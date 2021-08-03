@@ -162,8 +162,9 @@ hhtml, body {
     background-color: none;
     height: 65vh;
     width: 65vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     left: 10vh;
+    
 }
 
 .element-bg {
@@ -172,6 +173,7 @@ hhtml, body {
     width: 35vw;
     z-index: 0;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .element-text {
