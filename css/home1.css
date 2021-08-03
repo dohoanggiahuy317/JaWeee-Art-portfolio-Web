@@ -577,14 +577,14 @@ a {
 
 
 
-
+/* Des background -------------------------------------------------------------------> */
 #background_page{
     height: 500vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     position: absolute;
-    background-image: url(vietnam.png), linear-gradient(rgb(255, 83, 83), rgb(255, 255, 71));
+    background-image: url('img css/vietnam.png'), linear-gradient(rgb(255, 83, 83), rgb(255, 255, 71));
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120%;

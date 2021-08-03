@@ -16,6 +16,7 @@ document.getElementById('media-right').addEventListener('click', function(){
     TweenMax.to('#text-name', 0.5, {opacity: '1'});
     TweenMax.to('#animation-land-1', 0.5, {display: 'none', opacity: '0'});
     TweenMax.to('#animation-ball-1', 0.5, {display: 'none', opacity: '0'});
+    TweenMax.to('#png_ctn', 0.5, {display: 'none', opacity: '0'});
 })
 
 document.getElementById('bio-left').addEventListener('click', function(){
@@ -34,6 +35,7 @@ document.getElementById('bio-left').addEventListener('click', function(){
     TweenMax.to('#text-name', 0.5, {opacity: '0'});
     TweenMax.to('#animation-land-1', 1, {delay: 1.25, display: 'flex', opacity: '1'});
     TweenMax.to('#animation-ball-1', 1, {delay: 1.25, display: 'flex', opacity: '1'});
+    TweenMax.to('#png_ctn', 0.5, {delay: 1.25, display: 'flex', opacity: '1'});
 })
 
 document.getElementById('contact-right').addEventListener('click', function(){
@@ -292,3 +294,5 @@ document.getElementById('contact-bottom').addEventListener('mouseout', function(
   TweenMax.to('#fake-contactbottom-sideleft', 0.3, {height: '0vh'});
   TweenMax.to('#fake-contactbottom-sideright', 0.3, {height: '0vh'});
 })
+
+

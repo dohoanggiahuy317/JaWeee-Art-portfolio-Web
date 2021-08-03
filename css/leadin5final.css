@@ -698,19 +698,6 @@ a {
 /* des animation */
 /* des animation */
 
-/* #animation-land-1 {
-    width: 300vw;
-    height: 0.7vh;
-    position: absolute;
-    transform: rotate(25deg);
-    background-color: black;
-    z-index: 2;
-    top: 71.5vh;
-    left: -175vh;
-    display: flex;
-    z-index: 200;
-} */
-
 @keyframes ballrun1{
     0% {
         top: 25vh;
@@ -734,7 +721,7 @@ a {
     z-index: 0;
     height: 23vh;
     width: 23vh;
-    background-image: url(ball.png);
+    background-image: url('img css/ball.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -745,4 +732,110 @@ a {
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
     z-index: 100;
+}
+
+
+
+/* des vietnam */
+/* des vietnam */
+/* des vietnam */
+/* des vietnam */
+/* des vietnam */
+
+#png_ctn {
+    height: 90vh;
+    width: 60vh;
+    position: absolute;
+    background-color: none;
+    top: 5vh;
+    right: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes pop1 {
+    0% {
+        opacity: 1;
+        display: flex;
+    }
+    40% {
+        opacity: 1;
+        display: flex;
+    }
+    45%{
+        opacity: 0;
+        display: none;
+    }
+
+    95% {
+        display: flex;
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        display: flex;
+    }
+}
+
+#png_vn1{
+    height: 90vh;
+    width: 60vh;
+    top: 0vh;
+    position: absolute;
+    background-color: none;
+    background-image: url('img css/vn1-2.png');
+    background-repeat: no-repeat;   
+    background-size: auto 100%;
+    background-position: top;
+
+    animation-name: pop1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
+}
+
+@keyframes pop2 {
+    0% {
+        display: none;
+        opacity: 0;     
+    }
+    45% {
+        opacity: 1;
+        display: flex;
+    }
+    50% {
+        opacity: 1;
+        display: flex;
+    }
+    90% {
+        opacity: 1;
+        display: flex;
+    }
+    95%{
+        opacity: 0;
+        display: none;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
+#png_vn2{
+    height: 90vh;
+    width: 60vh;
+    top: 0vh;
+    position: absolute;
+    background-color: none;
+    background-image: url('img css/vn2-2.png');
+    background-repeat: no-repeat;   
+    background-size: auto 100%;
+    background-position: top;
+
+    animation-name: pop2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
 }
