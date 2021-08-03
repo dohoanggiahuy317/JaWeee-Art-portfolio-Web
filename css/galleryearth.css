@@ -362,7 +362,7 @@ cái này des title*/
     z-index: 1000;
     height: 23vh;
     width: 23vh;
-    background-image: url(ball.png);
+    background-image: url('img css/ball.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -504,7 +504,7 @@ Des quar bongs*/
     z-index: 0;
     height: 23vh;
     width: 23vh;
-    background-image: url(ball.png);
+    background-image: url('img css/ball.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
