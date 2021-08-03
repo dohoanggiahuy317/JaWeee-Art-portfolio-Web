@@ -147,7 +147,7 @@ hhtml, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: none;
 }
 
 /*Des từng cái element*/
@@ -571,4 +571,20 @@ a {
     width: 100vw;
     display: flex;
     position: absolute;
+}
+
+
+
+
+#background_page{
+    height: 500vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-image: url(vietnam.png), linear-gradient(rgb(255, 83, 83), rgb(255, 255, 71));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
+    opacity: 0.3;
 }
