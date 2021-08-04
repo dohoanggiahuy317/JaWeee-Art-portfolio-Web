@@ -280,11 +280,11 @@ $(".home-element").each(function() {
     duration: "100%"
   })
     .setTween(tl)
-    .addIndicators({
-      colorTrigger: "black",
-      colorStart: "black",
-      colorEnd: "black",
-      indent: 10
-    })
+    // .addIndicators({
+    //   colorTrigger: "black",
+    //   colorStart: "black",
+    //   colorEnd: "black",
+    //   indent: 10
+    // })
     .addTo(controller);
 });
