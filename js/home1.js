@@ -264,3 +264,27 @@ new ScrollMagic.Scene({
 .setTween(tl_metal)
 .addTo(controller)
 //.addIndicators()
+
+
+//------------------------------------------------------------------------------------>
+var controller = new ScrollMagic.Controller();
+
+$(".home-element").each(function() {
+  var tl = new TimelineMax();
+  var child = $(this).find(".element-container");
+  tl.to(child, 1, { y: -300, ease: Linear.easeNone });
+
+  var scene = new ScrollMagic.Scene({
+    triggerElement: this,
+    triggerHook: 0,
+    duration: "100%"
+  })
+    .setTween(tl)
+    .addIndicators({
+      colorTrigger: "black",
+      colorStart: "black",
+      colorEnd: "black",
+      indent: 10
+    })
+    .addTo(controller);
+});
